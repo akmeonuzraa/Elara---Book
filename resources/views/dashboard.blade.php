@@ -19,15 +19,7 @@
         .menu ul { list-style: none; }
         .menu li { margin: 0.5rem 0; }
         .menu a { color: #000000; text-decoration: none; font-size: 1.1rem; }
-        /* .menu a:hover { 
-            text-decoration: none;
-            background: #f0f0f0;
-            padding: 0.5rem 1rem;
-            border-radius: 8px;
-            transform: translateX(5px);
-            transition: all 0.3s;
-        } */
-         .menu a:hover { 
+        .menu a:hover { 
     text-decoration: none;
     background: #ee88a5;
     padding: 0.75rem 1.5rem;

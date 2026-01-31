@@ -29,7 +29,7 @@ class FineController extends Controller
 
         if ($validated['status'] === 'paid') {
             $validated['paid_date'] = now();
-            $validated['collected_by'] = 1; // Default user ID
+            $validated['collected_by'] = 1; 
         }
 
         $fine->update($validated);
